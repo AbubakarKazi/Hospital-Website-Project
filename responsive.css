@@ -1,0 +1,607 @@
+@media only screen and (max-width:768px){
+
+    .header{
+        height: 100px;
+        width: 100%;
+    }
+    .logo-img{
+        height: 100px;
+        width: 300px;
+        float:left;
+    }
+    .img{
+        height:80px;
+        width:300px
+    }
+    .logo1-img{
+        height: 100px;
+        width: 70px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-icon-content{
+        display: none;
+    }
+    .header1-icon1-content1{
+        display: none;
+    }
+    .header2-icon2-content2{
+        display: none;
+    }
+    .header3-icon3-content3{
+        display: none;
+    }
+    .navbar{
+        height: 50px;
+        width: 100%;
+        background: black;
+    }
+    .openmenu{
+        width:50%;
+        background: #0099ff;
+    }
+    .mainmenu{
+        display: none;
+    }
+    .mainmenu ul li a{
+        display: block; 
+    }
+    .bar{
+        width: 50%;
+        background-color:yellow;
+        ;
+    }
+    .navbar{
+        height: 40px;
+    }
+    .navbar .fa-bars{
+        display: block;
+       padding-top: 10px;
+       padding-left: 20px;
+       font-size: 30px;
+    }
+    .bar .input{
+        height:50px;
+        width: 50%;
+        display: block;
+        background:red;
+        color: aliceblue;
+    }
+    .bar .fa-magnifying-glass{
+        color: aliceblue;
+        display: block;
+    }
+    .content{
+        height: 300px;
+        background-image: url(bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }  
+    .content p{
+        padding-left: 0px;
+        color: white;
+        font-size: 14px;
+    }
+    .content-h1 h1{
+        padding-top: 10px;
+        padding-left: 45px;
+        color: aliceblue;
+    }
+    .content-h1 span h4{
+        padding-left: 50px;
+    }
+    .button-btn button{
+        position: absolute;
+        top: 380px;
+        left: 60px;
+        background-color: #3399ff;
+    }
+    .content-h1 h4{
+        padding-left: 30px;
+        color: aliceblue;
+    }
+    .nav-items{
+        display: none;
+    }
+    .main{
+        height: 850px;
+        width: 100%;
+    }
+    .section1{
+        height:450px;
+        width: 100%;
+    }
+    .section1 h1{
+        padding-top: 0px;
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    .section1 h5{
+        padding-left: 45px;
+        font-size: 12px;
+    }
+    .section2{
+        height:450px;
+        width: 100%;
+    }
+    .section-img{
+        height: 300px;
+        width: 80%;
+        background-image: url(treat.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .d-flex{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .a h6{
+        margin-left: -60px;
+    }
+    .b h3{
+        font-size: 21px;
+        margin-left: -30px;
+    }
+    .c button{
+        margin-left: -20px;
+    }
+    .container-main{
+    margin: 0px 0px 0px 0px;
+    }
+    .container img{
+        display: none;
+    }
+    #Eligibilty{
+        font-size: 23px;
+    }
+    #Preparation{
+        font-size: 23px;
+    }
+    #About{
+        font-size: 23px;
+    }
+    #Post{
+        font-size: 23px;
+    }
+    #Recovery{
+        font-size: 23px;
+    }
+    #FAQs{
+        font-size: 23px;
+    }
+    .container1{
+        margin-left: -0px;
+        width:100%;
+    }
+    .container2{
+        display: none;
+    }
+    .container-content-1{
+        width: 100%;
+        border-bottom: 2px dashed #33ccff;
+    }
+    .container-content-1 h1{
+        padding-top: 80px;
+        padding-left: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        
+    }
+    .container-content-1 h4{
+        padding-left: 20px;
+        font-size: 14px;
+        font-family:  'Poppins', sans-serif;
+        padding-top: 50px;
+    }
+    .container-con1{
+        margin-left: 5px;
+    }
+    .container-content-2 h1{
+        padding-top: 80px;
+        padding-left: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    .container-content-2 h4{
+        padding-left: 20px;
+        font-size: 14px;
+        font-family:  'Poppins', sans-serif;
+        padding-top: 50px;
+    }
+    .container-con2{
+        margin-left: 5px;
+    }
+    .container-content-3 h1{
+        padding-top: 80px;
+        padding-left: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    .container-content-3 h4{
+        padding-left: 20px;
+        font-size: 14px;
+        font-family:  'Poppins', sans-serif;
+        padding-top: 50px;
+    }
+    .container-con3{
+        margin-left: 5px;
+    }
+    .container-content-4 h1{
+        padding-top: 80px;
+        padding-left: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    .container-content-4 h4{
+        padding-left: 20px;
+        font-size: 14px;
+        font-family:  'Poppins', sans-serif;
+        padding-top: 50px;
+    }
+    .container-con4{
+        margin-left: 5px;
+    }
+    .container-content-5 h1{
+        padding-top: 80px;
+        padding-left: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    .container-content-5 h4{
+        padding-left: 20px;
+        font-size: 14px;
+        padding-top: 50px;
+        font-family:  'Poppins', sans-serif;
+    }
+    .container-con5{
+        margin-left: 5px;
+    }
+    .third-con h4{
+        margin-left: -30px;
+    }
+    .third-con h6{
+        font-size: 10px;
+    }
+
+    .accordion h1{
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    }
+    .accordion-item{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .container-content-7{
+        display: block;
+    }
+    .item{
+        width:250px ;
+    }
+    .carousel-1{
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 450px;
+    }
+    .carousel-1 h2 {
+        margin-left: 170px;
+    }
+    .carousel-1 h3{
+        position: absolute;
+        left: 80px;
+    }
+    .owl-carousel{
+        margin-top: 100px;
+    }
+    .carousel-1 .item{
+        width: 140px;
+        height: 250px;
+        border: 1px solid black;
+        margin: 10px 10px 10px 10px;
+    }
+    .car-img-1{
+        width: 120px;
+        height: 100px;
+    }
+    .car-img-1 img{
+        width: 120px;
+    }
+    .car-con-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .car-con-1 h4{
+        color: red ;
+        font-size: 12px;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+    .car-con-1 h5{
+        font-size: 10px;
+        margin-left: -20px;  
+    }
+    .car-con-1 h6{
+        font-size: 8px;
+        margin-left: -40px;
+    }
+    
+
+
+    
+    .carousel-2{
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+    .carousel-2 h3 i{
+        margin-left: 170px;
+    }
+    .carousel-2 h4{
+        margin-left: 100px;
+    }
+    .carousel-2 .item{
+        width: 140px;
+        height: 250px;
+        border: 1px solid black;
+    }
+    .car2-img{
+        width: 130px;
+        height: 100px;
+        margin: 10px 10px 10px 5px;
+    }
+    .car2-img img{
+        width: 110px;
+    }
+    .car2-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .car2-con h4{
+        font-size: 16px;
+        margin-left: 3px;
+    }
+    .car2-con h6 i{
+        margin-right: 120px;
+    }
+    .owl-theme{
+        margin-top: 50px;
+    }
+
+
+
+
+
+    .con-con-1{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .con-con-1 h6{
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+
+
+    .contact-1{
+        height: 300px;
+        width: 100%;
+        background: #33ccff;
+    }
+    .contact-1 .a{
+        height: 50px;
+        width: 100%;
+        padding-left: 130px;
+        padding-top: 20px;
+    }
+    .contact-1 .a h6{
+        padding-top: 50px;
+    }
+    .contact-1 .b{
+        height: 50px;
+        width: 100%;
+        padding-left: 60px;
+        padding-top: 20px;
+    }
+    .contact-1 .b h3{
+        padding-top: 30px;
+    }
+    .contact-1 .c{
+        height: 100px;
+        width: 100%;
+    }
+    .contact-1 .c1{
+        height: 100px;
+        width: 50%;
+        float: left;
+        padding-left: 50px;
+        padding-top: 70px;
+    }
+    .contact-1 .c1 button{
+        height: 50px;
+        width: 200px;
+        background:  #3399ff;
+        color: aliceblue;
+        margin-left: -40px;
+    }
+    .contact-1 .c2{
+        height: 100px;
+        width: 50%;
+        float: left;
+        padding-top: 75px;
+    }
+    .contact-1 .c2 a{
+        color: aliceblue;
+        position: absolute;
+        right: 30px;
+    }
+    .contact-box{
+        display: none;
+    }
+    .footer{
+        background: #003366;
+    }
+    .footer-1{
+        height: 300px;
+        width: 100%;
+        background:  #003366;  
+        float: left; 
+       }
+       .footer-1 h5{
+           padding-left: 100px;
+           color: aliceblue;
+       }
+       .footer-1 ul li {
+           list-style: none;
+           padding-left: 70px;
+           color: aliceblue;
+       }
+       .footer-1 a{
+           color: aliceblue;
+       }
+       .footer-2{
+           height: 350px;
+           width: 100%;
+           background: #0b2432;
+           float: left;
+       }
+       .footer-2 h5{
+           padding-top: 100px;
+           padding-left: 100px;
+           color: aliceblue;
+       }
+       .footer-2 ul li {
+           list-style: none;
+           padding-left: 70px;
+           color: aliceblue;
+       }
+       .footer-2 a{
+           color: aliceblue;
+       }
+       
+       .footer-3{
+           height: 400px;
+           width: 100%;
+           background:  #0b2432 ; 
+           float: left; 
+          }
+          .footer-3 h5{
+           padding-top: 100px;
+           padding-left: 100px;
+           color: aliceblue;
+       }
+       .footer-3 ul li {
+           list-style: none;
+           padding-left: 70px;
+           color: aliceblue;
+       }
+       .footer-3 a{
+           color: aliceblue;
+       }
+       
+       .footer-4{
+           height: 400px;
+           width: 100%;
+           float: left; 
+           background: #0b2432;
+          }
+          .footer-4-1{
+           display: none;
+          }
+          .footer-4-2{
+           height: 300px;
+           width: 100%;
+           background: #0b2432;
+          }
+          .footer-4-2 h5{
+           padding-top: 100px;
+           padding-left: 100px;
+           color: aliceblue;
+       }
+       .footer-4-2 ul li {
+           list-style: none;
+           padding-left: 70px;
+           color: aliceblue;
+       }
+       .footer-4-2 a{
+           color: aliceblue;
+       }
+       .hospital{
+        height: 640px;
+        width: 100%;
+        border-top: 2px solid white;
+        background: #0b2432;
+        display: flex;
+        flex-direction: column;
+    }
+    .hospital-1{
+    height: 150px;
+    width: 100%;
+    }
+    .hospital-1 img{
+        height: 150px;
+        width: 100%;
+    }
+    .hospital-2{
+    height: 300px;
+    width: 100%;
+    }
+    .hospital-2 h3{
+        padding-top: 20px;
+    }
+    .hospital-3{
+    height: 180px;
+    width: 100%;
+    }
+    .hospital-3 h2{
+        padding-top:30px ;
+        padding-left: 40px;
+    }
+    .hospital-3 h3{
+        padding-left: 40px;
+    }
+    .hospital-3 h4{
+        padding-left: 40px;
+    }
+    
+    .copyright{
+        width: 100%;
+        height: 100px;
+    }
+    .text-1{
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+    .text-1 h6{
+        color: aliceblue;
+        font-size: 12px;
+    }
+    .text-3{
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    .text-3 h6{
+        color: aliceblue;
+        font-size: 10px;
+    }
+    
+    
+       
+}
